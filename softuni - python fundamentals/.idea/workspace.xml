@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15834402-abe3-4821-8dde-653c26147470" name="Changes" comment="adding files" />
+    <list default="true" id="15834402-abe3-4821-8dde-653c26147470" name="Changes" comment="1st file code added">
+      <change beforePath="$PROJECT_DIR$/Basic Syntax, Conditional Statements and Loops/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Syntax, Conditional Statements and Loops/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Syntax, Conditional Statements and Loops/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Syntax, Conditional Statements and Loops/3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Syntax, Conditional Statements and Loops/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Syntax, Conditional Statements and Loops/4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Syntax, Conditional Statements and Loops/5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Syntax, Conditional Statements and Loops/5.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,13 +23,21 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ivanparvanov1208/softuni-pf-with-python.git",
+    "accountId": "940ccdfb-b930-41b3-a231-e457c497b4e7"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2xIevEewCoCU9bLvdNxDMwvCCP6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,8 +55,8 @@
     "Python.8.executor": "Run",
     "Python.9.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/ivan4/Desktop/softuni - python fundamentals"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ivan4/Documents/GitHub/softuni-pf-with-python/softuni - python fundamentals"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -70,11 +83,46 @@
       <option name="project" value="LOCAL" />
       <updated>1747820745237</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002">
+      <option name="closed" value="true" />
+      <created>1747821294862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747821294862</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding files">
+      <option name="closed" value="true" />
+      <created>1747821306869</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747821306869</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Pycharm IDE workspace files added">
+      <option name="closed" value="true" />
+      <created>1747821342389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747821342389</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1st file code added">
+      <option name="closed" value="true" />
+      <created>1747821429787</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747821429787</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="workspace pycharm added" />
     <MESSAGE value="adding files" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding files" />
+    <MESSAGE value="Pycharm IDE workspace files added" />
+    <MESSAGE value="1st file code added" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st file code added" />
   </component>
 </project>
