@@ -1,27 +1,23 @@
 def check(rooms):
-    ready = False
     free_chairs = 0
+    all_rooms_ready = True
+
     for i in range(1, rooms + 1):
-
         chairs, visitors = input().split()
+        chairs_count = int(chairs)
+        visitors_count = int(visitors)
 
-        chairsCount = 0
 
-        for _ in chairs:
-            chairsCount += 1
-
-        if chairsCount < int(visitors):
-            diff = int(visitors) - chairsCount
+        if chairs_count < visitors_count:
+            diff = visitors_count - chairs_count
             print(f"{diff} more chairs needed in room {i}")
-            ready = False
+            all_rooms_ready = False
         else:
-            free_chairs += chairsCount - int(visitors)
-            ready = True
+            free_chairs += chairs_count - visitors_count
 
-    if ready:
-        print(f"Game On, {free_chairs} chairs left")
+    if all_rooms_ready:
+        print(f"Game On, {free_chairs} free chairs left")
 
 
-roomsAmount = int(input())
-
-check(roomsAmount)
+rooms_amount = int(input())
+check(rooms_amount)
