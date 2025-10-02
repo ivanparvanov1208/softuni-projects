@@ -12,25 +12,37 @@ for i in range(len(cmd_line)):
             if firstEval:
                 previousResult = int(cmd_line[i-1]) + int(cmd_line[i-2])
                 firstEval = False
-            if not firstEval:
-                previousResult = previousResult + int(cmd_line[i-1]) + int(cmd_line[i-2])
-        if cmd_line[i] == "-":
+            elif not firstEval:
+                if int(cmd_line[i - 2] == (x for x in math_operators)):
+                    previousResult = previousResult + int(cmd_line[i - 1])
+                else:
+                    previousResult = previousResult + int(cmd_line[i - 1]) + int(cmd_line[i - 2])
+        elif cmd_line[i] == "-":
             if firstEval:
                 previousResult = int(cmd_line[i-1]) - int(cmd_line[i-2])
                 firstEval = False
-            if not firstEval:
-                previousResult = previousResult - int(cmd_line[i-1]) - int(cmd_line[i-2])
-        if cmd_line[i] == "*":
+            elif not firstEval:
+                if int(cmd_line[i - 2] == (x for x in math_operators)):
+                    previousResult = previousResult - int(cmd_line[i - 1])
+                else:
+                    previousResult = previousResult - int(cmd_line[i - 1]) - int(cmd_line[i - 2])
+        elif cmd_line[i] == "*":
             if firstEval:
                 previousResult = int(cmd_line[i-1]) * int(cmd_line[i-2])
                 firstEval = False
-            if not firstEval:
-                previousResult = previousResult * int(cmd_line[i-1]) * int(cmd_line[i-2])
-        if cmd_line[i] == "/":
+            elif not firstEval:
+                if int(cmd_line[i - 2] == (x for x in math_operators)):
+                    previousResult = previousResult * int(cmd_line[i - 1])
+                else:
+                    previousResult = previousResult * int(cmd_line[i - 1]) * int(cmd_line[i - 2])
+        elif cmd_line[i] == "/":
             if firstEval:
                 previousResult = int(cmd_line[i-1]) / int(cmd_line[i-2])
                 firstEval = False
-            if not firstEval:
-                previousResult = previousResult / int(cmd_line[i-1]) / int(cmd_line[i-2])
+            elif not firstEval:
+                if int(cmd_line[i-2] == (x for x in math_operators)):
+                    previousResult = previousResult / int(cmd_line[i-1])
+                else:
+                    previousResult = previousResult / int(cmd_line[i - 1]) / int(cmd_line[i - 2])
 
 print(previousResult)
