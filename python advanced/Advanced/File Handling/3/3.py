@@ -3,6 +3,7 @@ import os
 
 while True:
     input_ = input()
+
     if input_ == "End":
         break
 
@@ -10,6 +11,7 @@ while True:
 
     if command == 'Create':
         open(filename, 'w').close()
+
     elif command == "Add":
         with open(filename, 'a') as f:
             f.write(f"{args[0]}\n")
