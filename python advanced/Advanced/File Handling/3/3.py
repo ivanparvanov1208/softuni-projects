@@ -1,6 +1,5 @@
 import os
 
-
 while True:
     input_ = input()
 
